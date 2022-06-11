@@ -23,9 +23,9 @@ var randomNumber3 = Math.floor(Math.random() * 6);
 
 // Change title
 if (randomNumber1 > randomNumber2) {
-  document.querySelector("h1").textContent = "🍾 Boyfriend Wins!"
+  document.querySelector("h1").innerHTML = "🍾 Boyfriend Wins!"
 } else if (randomNumber2 > randomNumber1) {
-  document.querySelector("h1").textContent = "GirlFriend Wins! 🍾"
+  document.querySelector("h1").innerHTM = "GirlFriend Wins! 🍾"
 } else {
-  document.querySelector("h1").textContent = "🍾DRAW🍾"
+  document.querySelector("h1").innerHTML = "🍾DRAW🍾"
 }
